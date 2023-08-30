@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-center my-10 text-4xl font-bold uppercase">Stopwatch</h1>
+    </header>
+    <main>
+        <div>
+            <div>
+                <p id="counter-display" class="text-center my-8 text-5xl">
+                    0
+                </p>
+            </div>
+            <div class="text-center">
+                <button id="btn-start" class="btn btn-success">Start</button>
+                <button id="btn-pause" class="btn btn-warning">Pause</button>
+                <button id="btn-reset" class="btn btn-error">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
